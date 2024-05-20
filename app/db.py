@@ -1,6 +1,13 @@
 from motor.motor_asyncio import AsyncIOMotorClient
 import logging
-from app.setup import MONGO_DB, MONGO_URL, MONGO_USER, MONGO_PASSWORD, MIN_CONNECTIONS_COUNT, MAX_CONNECTIONS_COUNT
+from app.setup import (
+    MONGO_DB,
+    MONGO_URL,
+    MONGO_USER,
+    MONGO_PASSWORD,
+    MIN_CONNECTIONS_COUNT,
+    MAX_CONNECTIONS_COUNT,
+)
 
 
 db_client: AsyncIOMotorClient = None
@@ -22,17 +29,17 @@ async def connect_and_init_db():
             minPoolSize=MIN_CONNECTIONS_COUNT,
             uuidRepresentation="standard",
         )
-        logging.info('Connected to mongo.')
+        logging.info("Connected to mongo.")
     except Exception as e:
-        logging.exception(f'Could not connect to mongo: {e}')
+        logging.exception(f"Could not connect to mongo: {e}")
         raise
 
 
 async def close_db_connect():
     global db_client
     if db_client is None:
-        logging.warning('Connection is None, nothing to close.')
+        logging.warning("Connection is None, nothing to close.")
         return
     db_client.close()
     db_client = None
-    logging.info('Mongo connection closed.')
+    logging.info("Mongo connection closed.")
