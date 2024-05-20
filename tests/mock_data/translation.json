@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "664a690440aabef0648b90dc",
+    "create_time": "2024-05-19T21:03:00.673Z",
+    "definitions": ["a difficult task that tests a person's abilities","a problem or situation that needs to be dealt with"],
+    "examples": ["She has always enjoyed a challenge, whether it was climbing mountains or swimming with sharks.","The biggest challenge facing us today is climate change.","Solving this puzzle was a real challenge.","The challenge of raising a family can be both rewarding and stressful.","The challenge of poverty is one that we must all work to overcome."],
+    "id": "b8lpgRC3nSKWFjr+ICtMO6Q==",
+    "language": "spanish",
+    "synonyms": ["task","problem","difficulty","trial","ordeal"],
+    "translations": ["desafío","problema","reto","dificultad"],
+    "update_time": "2024-05-19T21:03:00.673Z",
+    "word": "challenge"
+  },
+  {
+    "_id": "664a691e40aabef0648b90de",
+    "create_time": "2024-05-19T21:03:26.475Z",
+    "definitions": ["a colorless, transparent, odorless, tasteless liquid that forms the seas, lakes, rivers, and rain and is the basis of the fluids of living organisms.","a liquid that is the basis for bodily fluids and the solvent for many substances.","a liquid that forms part of the hydrosphere.","a small body of liquid, especially one held in a container."],
+    "examples": ["the water was cold and clear","we need to conserve water","the water was up to my knees","I'll have a glass of water, please","the water was boiling furiously"],
+    "id": "gvPdUb5sTjaL+EHwJVgreg==",
+    "language": "italian",
+    "synonyms": ["H2O","aqua","liquid","moisture","wet stuff"],
+    "translations": ["acqua"],
+    "update_time": "2024-05-19T21:03:26.475Z",
+    "word": "water"
+  }
+]
